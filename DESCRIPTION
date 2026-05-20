@@ -1,6 +1,6 @@
 Package: LS1WSTEW26
 Type: Package
-Title: What the Package Does (Title Case)
+Title: LS 1 Functions
 Version: 0.1.0
 Authors@R: person(
     "Wayne", "Stewart",
@@ -8,8 +8,7 @@ Authors@R: person(
     email = "wayne.s.stewart@ou.edu",
     comment = "Advanced R applications"
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: LS 1 functions and instruction.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
