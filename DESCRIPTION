@@ -1,0 +1,16 @@
+Package: LS1WSTEW26
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person(
+    "Wayne", "Stewart",
+    role = c("aut", "cre"),
+    email = "wayne.s.stewart@ou.edu",
+    comment = "Advanced R applications"
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
