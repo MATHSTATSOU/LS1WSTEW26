@@ -13,7 +13,7 @@ myvar(y)
 a scalar (variance)
 }
 \description{
-Calculation of sample variance
+This is a very simple introduction to function making and packaging
 }
 \examples{
 myvar(1:10)

@@ -1,5 +1,9 @@
 #' Calculation of sample variance
 #'
+#' @description
+#' This is a very simple introduction to function making and packaging
+#'
+#'
 #' @param y a numeric vector
 #'
 #' @returns a scalar (variance)
