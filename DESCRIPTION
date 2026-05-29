@@ -8,12 +8,25 @@ Authors@R: person(
     email = "wayne.s.stewart@ou.edu",
     comment = "Advanced R applications"
   )
-Description: LS 1 functions and instruction.
+Description: LS 1 functions and instruction. 
+    Includes a Shiny application for exploring directories,
+    analyzing file metadata, visualizing file distributions,
+    and detecting duplicates.
 Imports:
     readxl,
     readr,
     reticulate,
-    Rcpp
+    Rcpp,
+    ggplot2,
+    patchwork,
+    gt,
+    scales,
+    DT,
+    bslib,
+    fs,
+    digest,
+    shiny,
+    mime
 LinkingTo:
     Rcpp
 License: MIT + file LICENSE
