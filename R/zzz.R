@@ -1,7 +1,10 @@
-.onLoad <- function(libname, pkgname) {
-  if (reticulate::py_available(initialize = FALSE)) {
-    if (!reticulate::py_module_available("pandas")) {
-      message("Note: pandas not installed. convertPy() will not work until installed.")
-    }
+.onAttach <- function(libname, pkgname) {
+
+  if (!reticulate::py_module_available("pandas")) {
+    packageStartupMessage(
+      "Optional dependency 'pandas' is not installed.\n",
+      "Functions depending on it (e.g., convertPy) will not work.\n",
+      "Install with: reticulate::py_install('pandas')"
+    )
   }
 }
