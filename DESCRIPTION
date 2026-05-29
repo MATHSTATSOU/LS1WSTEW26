@@ -21,8 +21,6 @@ Imports:
     patchwork,
     gt,
     scales,
-    DT,
-    bslib,
     fs,
     digest,
     shiny,
@@ -36,3 +34,5 @@ RoxygenNote: 7.3.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/MATHSTATSOU/LS1WSTEW26
+BugReports: https://github.com/MATHSTATSOU/LS1WSTEW26/issues
